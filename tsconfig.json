@@ -1,0 +1,13 @@
+{
+    "include": [
+        "src"
+    ],
+    "compilerOptions": {
+        "outDir": "build", // 자바스크립트 가 생성될 디렉토리 지정
+        "esModuleInterop":true,
+        "target": "es6", //es 버전 변경이 가능하다.
+        "lib": ["es6"],        // 어디서 동작 할 것인가? DOM => node JS
+        "strict": true,
+        "module": "CommonJS"       
+    }
+}
